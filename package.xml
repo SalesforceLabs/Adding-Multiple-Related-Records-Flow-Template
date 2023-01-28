@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adding Multiple Related Records</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>Generally by using standard Salesforce you can enter only one record at a time from the UI. Do you want to add multiple related records at one time? How can we achieve this? We can achieve this by using simple flow template.</description>
+    <namespacePrefix>AddingMultiple</namespacePrefix>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Flow</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Adding_Multiple_Related_Records</referencedByName>
+    </orgFeaturePayloads>
+    <types>
+        <members>Adding_Multiple_Related_Records-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.Add_Multiple_Records</members>
+        <name>QuickAction</name>
+    </types>
+    <version>46.0</version>
+</Package>
